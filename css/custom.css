@@ -1,5 +1,6 @@
 :root{
    --white: #ffffff;
+   --black: #000000;
    --semi-white: #F9F6ED;
    --semi-black: #333333;
    --dark-blue: #163B3C;
@@ -264,4 +265,100 @@ section.marketers-and-managers {
 .marketers-inner-content h4 {
    font-family: var(--header-font);
    font-weight: 500;
+}
+
+/* Better Panning */
+section.better-panning {
+   background-color: var(--semi-white);
+   padding-top: 117px;
+   padding-bottom: 86px;
+}
+.better-panning-heading {
+   margin-bottom: 20px;
+}
+.better-panning-content {
+   max-width: 500px;
+}
+.panning-item:not(:first-child) {
+   border-top: 1px solid var(--semi-black);
+}
+.panning-item a {
+   font-size: 21px;
+   color: var(--semi-black);
+   font-family: var(--header-font);
+   font-weight: 500;
+   display: block;
+   padding: 21px 0;
+   position: relative;
+}
+.panning-details p {
+   margin-bottom: 24px;
+}
+.panning-item a:after {
+   content: "\f105";
+   position: absolute;
+   top: 50%;
+   right: 0;
+   font-family: 'Font Awesome 6 Pro';
+   font-size: 24px;
+   margin-top: -18px;
+   -webkit-transition: 0.3s;
+   transition: 0.3s;
+   -webkit-transform: rotate(90deg);
+           transform: rotate(90deg);
+}
+.panning-item a.collapsed:after {
+   -webkit-transform: rotate(0);
+           transform: rotate(0);
+}
+/* Email wireframing */
+section.email-wireframing {
+   padding-top: 108px;
+   padding-bottom: 60px;
+}
+.email-wireframing-image {
+   margin-bottom: 45px;
+}
+.email-wireframing-content:not(:last-child) {
+   margin-bottom: 23px;
+}
+.email-wireframing-content h2 {
+   margin-bottom: 14px;
+}
+/* Image Flip */
+section.image-flip {
+   padding-top: 60px;
+   padding-bottom: 132px;
+}
+.image-flip-content {
+   max-width: 500px;
+}
+.image-flip-img {
+   text-align: end;
+}
+.image-flip-content h6 {
+   margin-bottom: 23px;
+}
+.image-flip-img img {
+   border-radius: 10px;
+}
+/* Footer Top Area */
+section.footer-top-area {
+   padding: 130px 0;
+   background-color: var(--sweet);
+   color: var(--white);
+}
+.footer-top-img {
+   text-align: center;
+}
+.footer-top-btn {
+   text-align: center;
+}
+.footer-top-content {
+   max-width: 465px;
+   margin: 0 auto;
+}
+.footer-top-content h2 {
+   color: var(--white);
+   margin-bottom: 13px;
 }
