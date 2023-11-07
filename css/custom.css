@@ -178,7 +178,33 @@ footer.footer-area {
 .footer-btn {
    text-align: end;
 }
-
+/* Banner Area */
+.banner-area {
+   background-image: url(../img/baner-img.png);
+   background-repeat: no-repeat;
+   background-position: right center;
+   padding-top: 5%;
+   padding-bottom: 15%;
+   background-size: auto 38vw;
+}
+.banner-left-content {
+   max-width: 600px;
+}
+.banner-left-content h6 {
+   margin-bottom: 30px;
+}
+.banner-left-content h1 {
+   margin-bottom: 11px;
+}
+.banner-left-content h5 {
+   margin-bottom: 35px;
+}
+.banner-buttons a.green-btn {
+   margin-right: 9px;
+}
+.banner-img {
+   padding-top: 95px;
+}
 /* Marketers and Managers */
 section.marketers-and-managers {
    padding-top: 124px;
@@ -238,30 +264,4 @@ section.marketers-and-managers {
 .marketers-inner-content h4 {
    font-family: var(--header-font);
    font-weight: 500;
-}/* Banner Area */
-.banner-area {
-   background-image: url(../img/baner-img.png);
-   background-repeat: no-repeat;
-   background-position: right center;
-   padding-top: 5%;
-   padding-bottom: 15%;
-   background-size: auto 38vw;
-}
-.banner-left-content {
-   max-width: 600px;
-}
-.banner-left-content h6 {
-   margin-bottom: 30px;
-}
-.banner-left-content h1 {
-   margin-bottom: 11px;
-}
-.banner-left-content h5 {
-   margin-bottom: 35px;
-}
-.banner-buttons a.green-btn {
-   margin-right: 9px;
-}
-.banner-img {
-   padding-top: 95px;
 }
