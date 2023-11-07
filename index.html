@@ -3,9 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kojee</title>
+
+    <!-- all css and fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/ena6ijc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
-    
+    <!-- Header Area -->
+    <header class="header-area">
+        <div class="div-1700">
+           <div class="row g-0 align-items-center justify-content-between">
+              <div class="col-lg-auto">
+                    <div class="mobile-header">
+                        <a href="#" class="logo"><img src="./img/logo.svg" alt=""></a>
+                        <div class="menubar-right d-lg-none">
+                            <a href="#" class="login-btn-mobile d-lg-none"><i class="fa-light fa-arrow-right-to-bracket"></i> Login</a>
+                            <a href="#mainNavMenu" data-bs-toggle="collapse" class="mobile-bar" onclick="openMobileMenu()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+              </div>
+              <div class="col-lg navbar-expand-lg">
+                    <nav class="nav-menu collapse navbar-collapse" id="mainNavMenu">
+                       <ul>
+                            <li><a href="#">Product</a></li>
+                            <li class="menu-item-has-children"><a href="#">Why Kojee</a>
+                                <div class="mega-menu">
+                                    <div class="mega-menu-container">
+                                        <button class="back-btn d-lg-none" onclick="closeSubMenu(this)"><i class="fa-regular fa-arrow-left-long"></i> Back</button>
+                                        <div class="row g-0 align-items-center">
+                                            <div class="col-lg-auto d-none d-lg-block">
+                                                <div class="mega-menu-left">
+                                                    <h5>Why Kojee</h5>
+                                                    <p>Kojee does a lot of cool things. Better emails is the goal and making you the hero.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg">
+                                                <div class="mega-menu-right">
+                                                    <div class="mega-menu-nav">
+                                                        <h6>WHAT WE DO better</h6>
+                                                        <ul>
+                                                            <li><a href="#">Marketing Planning & Strategy</a></li>
+                                                            <li><a href="#">Brand Management</a></li>
+                                                            <li><a href="#">Contractor Workflow</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mega-menu-nav">
+                                                        <h6>WHO We help</h6>
+                                                        <ul>
+                                                            <li><a href="#">Email Marketers</a></li>
+                                                            <li><a href="#">Digital Marketing Managers</a></li>
+                                                            <li><a href="#">Digital Contractors</a></li>
+                                                            <li><a href="#">Agencies</a></li>
+                                                            <li><a href="#">Writers</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-center d-lg-none">
+                                            <a href="#" class="green-btn">Sign up, it’s free</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#">Email Playbooks</a></li>
+                            <li><a href="#">Pricing</a></li>
+                       </ul>
+                       <a href="#" class="green-btn d-inline-block d-lg-none">Sign up, it’s free</a>
+                    </nav>
+              </div>
+               <div class="col-lg-auto d-none d-lg-block">
+                    <div class="login-and-sign-up">
+                        <a href="#" class="login-btn-desktop">Login</a>
+                        <a href="#" class="green-btn">Sign up, it’s free</a>
+                    </div>
+               </div>
+           </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer Area -->
+    <footer class="footer-area">
+        <div class="div-1700">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo-area">
+                        <a href="#"><img src="./img/logo-white.png" alt=""></a>
+                        <a href="#">Contact Us</a>
+                        <p>&copy; 2023 All Rights Reserved</p>
+                        <p>Privacy | Terms | Login</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer-inner-content">
+                        <h6>About Kojee</h6>
+                        <ul>
+                            <li><a href="#">Plan & Strategy (Sequence brief)</a></li>
+                            <li><a href="#">Organize (Tagging and Search)</a></li>
+                            <li><a href="#">Brand First Marketing</a></li>
+                            <li><a href="#">Assign (Team Building)</a></li>
+                            <li><a href="#">Manage (Tacking and easy)</a></li>
+                            <li><a href="#">Write Plain Text (Great Interfacing)</a></li>
+                            <li><a href="#">Prototype Promotional Emails (Email Builder)</a></li>
+                            <li><a href="#">Review & Notes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer-inner-content">
+                        <h6>Why Kojee</h6>
+                        <ul>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">Why Kojee</a></li>
+                            <li><a href="#">Email Playbooks</a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer-inner-content">
+                        <h6>Resources</h6>
+                        <ul>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Email Playbooks</a></li>
+                            <li><a href="#">Downloads</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-btn">
+                        <a href="#" class="green-btn">Sign up, it’s free</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- all js file -->
+    <script src="https://kit.fontawesome.com/9ff5fb97fe.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
