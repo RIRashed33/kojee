@@ -147,17 +147,6 @@ nav.nav-menu > ul > li:hover > a, .mega-menu .mega-menu-nav ul li a:hover, .logi
    margin-right: 20px;
    font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
 /* Footer Area */
 footer.footer-area {
    padding-top: 132px;
@@ -188,4 +177,31 @@ footer.footer-area {
 }
 .footer-btn {
    text-align: end;
+}
+/* Banner Area */
+.banner-area {
+   background-image: url(../img/baner-img.png);
+   background-repeat: no-repeat;
+   background-position: right center;
+   padding-top: 5%;
+   padding-bottom: 15%;
+   background-size: auto 38vw;
+}
+.banner-left-content {
+   max-width: 600px;
+}
+.banner-left-content h6 {
+   margin-bottom: 30px;
+}
+.banner-left-content h1 {
+   margin-bottom: 11px;
+}
+.banner-left-content h5 {
+   margin-bottom: 35px;
+}
+.banner-buttons a.green-btn {
+   margin-right: 9px;
+}
+.banner-img {
+   padding-top: 95px;
 }
